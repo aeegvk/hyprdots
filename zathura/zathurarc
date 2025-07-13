@@ -1,0 +1,65 @@
+#  ┏┓┏┓┏┳┓┓┏┳┳┳┓┏┓┳┓┏┓
+#  ┏┛┣┫ ┃ ┣┫┃┃┣┫┣┫┣┫┃ 
+#  ┗┛┛┗ ┻ ┛┗┗┛┛┗┛┗┛┗┗┛
+#                     
+
+
+
+# Options
+set recolor 			"true"
+set recolor-keephue 		"true"
+set window-title-home-tilde 	true
+set statusbar-basename 		true
+set selection-clipboard 	clipboard
+set database			null
+
+# Keymaps
+map u 				scroll half-up
+map d 				scroll half-down
+map D 				toggle_page_mode
+map r 				reload
+map R 				rotate
+map K 				zoom in
+map J 				zoom out
+map i 				recolor
+map p 				print
+map g 				goto top
+map [fullscreen] u 		scroll half-up
+map [fullscreen] d 		scroll half-down
+map [fullscreen] D 		toggle_page_mode
+map [fullscreen] r 		reload
+map [fullscreen] R 		rotate
+map [fullscreen] K 		zoom in
+map [fullscreen] J 		zoom out
+map [fullscreen] i 		recolor
+map [fullscreen] p 		print
+map [fullscreen] g 		goto top
+
+# Colors
+set completion-bg 		"#272e33"
+set completion-fg 		"#d3c6aa"
+set completion-group-bg 	"#272e33"
+set completion-group-fg 	"#a7c080"
+set completion-highlight-bg 	"#a7c080"
+set completion-highlight-fg 	"#272e33"
+set recolor-lightcolor 		"#272e33"
+set recolor-darkcolor 		"#d3c6aa"
+set default-bg 			"#272e33"
+set inputbar-bg 		"#272e33"
+set inputbar-fg 		"#d3c6aa"
+set notification-bg 		"#272e33"
+set notification-fg 		"#d3c6aa"
+set notification-error-bg 	"#e67e80"
+set notification-error-fg 	"#d3c6aa"
+set notification-warning-bg 	"#e67e80"
+set notification-warning-fg 	"#d3c6aa"
+set statusbar-bg 		"#272e33"
+set statusbar-fg 		"#d3c6aa"
+set index-bg  			"#272e33"
+set index-fg  			"#d3c6aa"
+set index-active-bg 		"#d3c6aa"
+set index-active-fg 		"#272e33"
+set render-loading-bg 		"#272e33"
+set render-loading-fg 		"#d3c6aa"
+
+
